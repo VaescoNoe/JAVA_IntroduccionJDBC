@@ -23,7 +23,7 @@ public class IntroduccionJDBC {
 			stm.close();
 			con.close();
 		}catch(ClassNotFoundException | SQLException e){
-			
+			e.printStackTrace();
 		}
 	}
 
